@@ -1,0 +1,35 @@
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  background: #ddd;
+  font-size: 16px;
+  /* note: body has UA-default margin: 8px — I am NOT resetting it */
+}
+
+header {
+  background: #b3d9ff;
+  /* deliberately no padding, no border */
+}
+
+h1 {
+  font-size: 24px;
+  /* UA-default margin: 0.67em 0 still applies */
+}
+
+.menu {
+  background: #fff3b3;
+  padding: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+button {
+  display: block;
+  margin: 12px 0;
+  padding: 8px 16px;
+}
+
+footer {
+  background: #ffb3b3;
+  padding: 12px;
+  margin-top: 20px;
+}
